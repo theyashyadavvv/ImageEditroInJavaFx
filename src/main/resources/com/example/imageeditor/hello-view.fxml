@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.imageeditor.Controller">
+   <children>
+      <Button layoutX="435.0" layoutY="87.0" mnemonicParsing="false" onAction="#MakeImageBlackAndWhite" text="FilterImage" />
+      <ImageView fitHeight="299.0" fitWidth="351.0" layoutX="26.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@CatMan.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="447.0" layoutY="200.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>
